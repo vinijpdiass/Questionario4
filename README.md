@@ -1,2 +1,2 @@
 # Questionario4
-Quarto questionario passado na materia
+Quarto questionário passado na matéria logica de programação
