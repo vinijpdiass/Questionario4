@@ -1,5 +1,5 @@
 using System;
-class questão3 {
+class questao3 {
   static void Main() {
     int menornumero = 100000;
     int numero = 100000;  
