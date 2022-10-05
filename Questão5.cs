@@ -1,5 +1,5 @@
 using System;
-class questão5 {
+class questao5 {
   static void Main() {
     int impares = 0, pares = 0;
     float numero = 0;  
