@@ -3,7 +3,7 @@ class relogio {
   static void Main() {
     int horas = 0, minutos = 0, segundos = 0, i = 0;  
     
-    while(i == 0){
+    do {
         segundos++;
         if (segundos == 60){
             minutos++;
@@ -15,9 +15,6 @@ class relogio {
             segundos = 0;
         }
         Console.WriteLine($"{horas}:{minutos}:{segundos}");
-        if(horas == 24){
-            break;
-        }
+    }while(horas != 24);
     }
-  }
 }
